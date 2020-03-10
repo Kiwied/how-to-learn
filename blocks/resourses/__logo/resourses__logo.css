@@ -1,15 +1,14 @@
 .resourses__logo {
   width: 270px;
   height: 38px;
-  filter: brightness(0);
-  transition: opacity linear .2s;
+  transition: filter linear .2s;
 }
 
 .resourses__logo:hover {
-  opacity: .6;
+  filter: brightness(0);
 }
 
 .resourses__logo:active {
-  opacity: 1;
+  filter: brightness(100%);
   transition: 0s;
 }
