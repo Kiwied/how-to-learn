@@ -1,0 +1,14 @@
+.header__subtitle-link {
+  color: #2f80ed;
+  text-decoration: none;
+  transition: opacity linear .2s;
+}
+
+.header__subtitle-link:hover {
+  opacity: .6;
+}
+
+.header__subtitle-link:active {
+  opacity: 1;
+  transition: 0s;
+}
